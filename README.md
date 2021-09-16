@@ -7,9 +7,9 @@ public class ProductOfArray {
      */
     public static void main(String[] args)
     {
-        int[] arr=new int[]{1,2,3,4,5};
+        int[] arr=new int[]{1,5,3,6,8};
        
-             int product=1;
+             int Product=1;
                for(int i=1; i<arr.length;i++) {
            Product=Product+arr[i];
                 }
